@@ -1,0 +1,1705 @@
+
+verts:
+  verts:
+  - verts: &vert0
+    - x: -0.13
+      y:  0.213
+    - x: -0.242
+      y:  0.059
+    - x: -0.213
+      y: -0.13
+    - x: -0.059
+      y: -0.242
+    - x:  0.13
+      y: -0.213
+    - x:  0.242
+      y: -0.059
+    - x:  0.213
+      y:  0.13
+    - x:  0.059
+      y:  0.242
+  - verts: &vert1
+    - x:  0.128
+      y: -0.214
+    - x:  0.175
+      y: -0.071
+    - x:  0.148
+      y:  0.118
+    - x:  0.061
+      y:  0.241
+    - x: -0.128
+      y:  0.214
+    - x: -0.175
+      y: 0.071
+    - x: -0.148
+      y: -0.118
+    - x: -0.061
+      y: -0.241
+meta:
+  last_updated: 0
+metric_map: general_central_pathway
+name: general_central_pathway
+pointset: general_central_pathway
+transformation:
+  child: topo_map
+  parent: map
+  rotation:
+    w: 1.0
+    x: 0.0
+    y: 0.0
+    z: 0.0
+  translation:
+    x: 0.0
+    y: 0.0
+    z: 0.0
+nodes:
+- meta:
+    map: riseholme_polytunnel
+    node: WayPoint1
+    pointset: riseholme_polytunnel_restrict
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint1
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -102.08
+        y: -41.56
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme_polytunnel
+    node: WayPoint2
+    pointset: riseholme_polytunnel_restrict
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint2
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -95.3
+        y: -35.01
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme_polytunnel
+    node: WayPoint3
+    pointset: riseholme_polytunnel_restrict
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint3
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -91.98
+        y: -42.9
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme_polytunnel
+    node: WayPoint4
+    pointset: riseholme_polytunnel_restrict
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint4
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -103.67
+        y: -26.9
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme_polytunnel
+    node: WayPoint5
+    pointset: riseholme_polytunnel_restrict
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint5
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -120.29
+        y: -19.23
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme_polytunnel
+    node: WayPoint6
+    pointset: riseholme_polytunnel_restrict
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint6
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -131.12
+        y: -15.23
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme_polytunnel
+    node: WayPoint7
+    pointset: riseholme_polytunnel_restrict
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint7
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -137.83
+        y: -8.01
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme_polytunnel
+    node: WayPoint8
+    pointset: riseholme_polytunnel_restrict
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint8
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -139.76
+        y: -4.68
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme_polytunnel
+    node: WayPoint9
+    pointset: riseholme_polytunnel_restrict
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint9
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -147.13
+        y: -6.34
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme_polytunnel
+    node: WayPoint10
+    pointset: riseholme_polytunnel_restrict
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint10
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -152.78
+        y: 8.99
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme_polytunnel
+    node: WayPoint11
+    pointset: riseholme_polytunnel_restrict
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint11
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -171.26
+        y: 4.77
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme_polytunnel
+    node: WayPoint12
+    pointset: riseholme_polytunnel_restrict
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint12
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -178.83
+        y: 7.55
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme_polytunnel
+    node: WayPoint13
+    pointset: riseholme_polytunnel_restrict
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint13
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -199.17
+        y: 2.44
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme_polytunnel
+    node: WayPoint14
+    pointset: riseholme_polytunnel_restrict
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint14
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -204.88
+        y: 1.1
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme_polytunnel
+    node: WayPoint15
+    pointset: riseholme_polytunnel_restrict
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint15
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -206.48
+        y: 6.32
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme_polytunnel
+    node: WayPoint16
+    pointset: riseholme_polytunnel_restrict
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint16
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -209.47
+        y: -0.23
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme_polytunnel
+    node: WayPoint17
+    pointset: riseholme_polytunnel_restrict
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint17
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -177.04
+        y: 2.1
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme_polytunnel
+    node: WayPoint18
+    pointset: riseholme_polytunnel_restrict
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint18
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -168.07
+        y: -7.45
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme_polytunnel
+    node: WayPoint19
+    pointset: riseholme_polytunnel_restrict
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint19
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -166.21
+        y: -16.34
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme_polytunnel
+    node: WayPoint20
+    pointset: riseholme_polytunnel_restrict
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint20
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -171.85
+        y: -8.79
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme_polytunnel
+    node: WayPoint21
+    pointset: riseholme_polytunnel_restrict
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint21
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -179.1
+        y: -14.01
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme_polytunnel
+    node: WayPoint22
+    pointset: riseholme_polytunnel_restrict
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint22
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -184.94
+        y: -20.34
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme_polytunnel
+    node: WayPoint23
+    pointset: riseholme_polytunnel_restrict
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint23
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -237.24
+        y: -33.9
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme_polytunnel
+    node: WayPoint24
+    pointset: riseholme_polytunnel_restrict
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint24
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -246.55
+        y: -7.23
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme_polytunnel
+    node: WayPoint25
+    pointset: riseholme_polytunnel_restrict
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint25
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -174.38
+        y: -18.45
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme_polytunnel
+    node: WayPoint26
+    pointset: riseholme_polytunnel_restrict
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint26
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -177.17
+        y: -21.45
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme_polytunnel
+    node: WayPoint27
+    pointset: riseholme_polytunnel_restrict
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint27
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -144.94
+        y: -8.56
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme_polytunnel
+    node: WayPoint28
+    pointset: riseholme_polytunnel_restrict
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint28
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -138.76
+        y: -27.45
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme_polytunnel
+    node: WayPoint29
+    pointset: riseholme_polytunnel_restrict
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint29
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -132.65
+        y: -27.01
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme_polytunnel
+    node: WayPoint30
+    pointset: riseholme_polytunnel_restrict
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint30
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -126.47
+        y: -23.56
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme_polytunnel
+    node: WayPoint31
+    pointset: riseholme_polytunnel_restrict
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint31
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -101.68
+        y: -20.01
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme_polytunnel
+    node: WayPoint32
+    pointset: riseholme_polytunnel_restrict
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint32
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -98.82
+        y: -15.34
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme_polytunnel
+    node: WayPoint33
+    pointset: riseholme_polytunnel_restrict
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint33
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -93.11
+        y: -11.68
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme_polytunnel
+    node: WayPoint34
+    pointset: riseholme_polytunnel_restrict
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint34
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -86.66
+        y: -10.9
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme_polytunnel
+    node: WayPoint35
+    pointset: riseholme_polytunnel_restrict
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint35
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -81.28
+        y: -11.45
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme_polytunnel
+    node: WayPoint36
+    pointset: riseholme_polytunnel_restrict
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint36
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -77.76
+        y: -13.68
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme_polytunnel
+    node: WayPoint37
+    pointset: riseholme_polytunnel_restrict
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint37
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -72.11
+        y: -18.34
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme_polytunnel
+    node: WayPoint38
+    pointset: riseholme_polytunnel_restrict
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint38
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -55.9
+        y: -30.23
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme_polytunnel
+    node: WayPoint39
+    pointset: riseholme_polytunnel_restrict
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint39
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -52.44
+        y: -31.9
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme_polytunnel
+    node: WayPoint40
+    pointset: riseholme_polytunnel_restrict
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint40
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -51.91
+        y: -36.23
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme_polytunnel
+    node: WayPoint41
+    pointset: riseholme_polytunnel_restrict
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint41
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -50.51
+        y: -45.12
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme_polytunnel
+    node: WayPoint42
+    pointset: riseholme_polytunnel_restrict
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint42
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -23.4
+        y: -41.34
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme_polytunnel
+    node: WayPoint43
+    pointset: riseholme_polytunnel_restrict
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint43
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -24.6
+        y: -33.45
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme_polytunnel
+    node: WayPoint44
+    pointset: riseholme_polytunnel_restrict
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint44
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -15.56
+        y: -32.23
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme_polytunnel
+    node: WayPoint45
+    pointset: riseholme_polytunnel_restrict
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint45
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -13.9
+        y: -40.45
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme_polytunnel
+    node: WayPoint46
+    pointset: riseholme_polytunnel_restrict
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint46
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -12.24
+        y: -48.12
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme_polytunnel
+    node: WayPoint47
+    pointset: riseholme_polytunnel_restrict
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint47
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -51.98
+        y: -48.01
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme_polytunnel
+    node: WayPoint48
+    pointset: riseholme_polytunnel_restrict
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint48
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -49.52
+        y: -69.45
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme_polytunnel
+    node: WayPoint49
+    pointset: riseholme_polytunnel_restrict
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint49
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -50.71
+        y: -69.9
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme_polytunnel
+    node: WayPoint50
+    pointset: riseholme_polytunnel_restrict
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint50
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -44.8
+        y: -69.23
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme_polytunnel
+    node: WayPoint51
+    pointset: riseholme_polytunnel_restrict
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint51
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -43.34
+        y: -69.79
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme_polytunnel
+    node: WayPoint52
+    pointset: riseholme_polytunnel_restrict
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint52
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -46.73
+        y: -59.01
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme_polytunnel
+    node: WayPoint53
+    pointset: riseholme_polytunnel_restrict
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint53
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -44.67
+        y: -58.79
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme_polytunnel
+    node: WayPoint54
+    pointset: riseholme_polytunnel_restrict
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint54
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -51.31
+        y: -27.34
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme_polytunnel
+    node: WayPoint55
+    pointset: riseholme_polytunnel_restrict
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint55
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -45.2
+        y: -24.68
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme_polytunnel
+    node: WayPoint56
+    pointset: riseholme_polytunnel_restrict
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint56
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -32.84
+        y: -22.01
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme_polytunnel
+    node: WayPoint57
+    pointset: riseholme_polytunnel_restrict
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint57
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -29.38
+        y: -21.34
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme_polytunnel
+    node: WayPoint58
+    pointset: riseholme_polytunnel_restrict
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint58
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -33.44
+        y: -13.79
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme_polytunnel
+    node: WayPoint59
+    pointset: riseholme_polytunnel_restrict
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint59
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -37.49
+        y: -7.56
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme_polytunnel
+    node: WayPoint60
+    pointset: riseholme_polytunnel_restrict
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint60
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -39.02
+        y: -23.01
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme_polytunnel
+    node: WayPoint61
+    pointset: riseholme_polytunnel_restrict
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint61
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -73.84
+        y: -12.68
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme_polytunnel
+    node: WayPoint62
+    pointset: riseholme_polytunnel_restrict
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint62
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -1.27
+        y: -17.34
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme_polytunnel
+    node: WayPoint63
+    pointset: riseholme_polytunnel_restrict
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint63
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -2.0
+        y: -12.23
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme_polytunnel
+    node: WayPoint64
+    pointset: riseholme_polytunnel_restrict
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint64
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: 22.25
+        y: -8.9
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme_polytunnel
+    node: WayPoint65
+    pointset: riseholme_polytunnel_restrict
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint65
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: 23.12
+        y: -13.68
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme_polytunnel
+    node: WayPoint66
+    pointset: riseholme_polytunnel_restrict
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint66
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: 26.3
+        y: -1.34
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
